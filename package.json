@@ -1,0 +1,53 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.19",
+    "@expo/vector-icons": "^12.0.5",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
+    "expo": "~41.0.1",
+    "expo-splash-screen": "~0.10.2",
+    "expo-updates": "~0.5.4",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.12.4",
+    "lodash": "^4.17.21",
+    "node-sass": "^6.0.0",
+    "react": "16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-dom": "16.13.1",
+    "react-native": "~0.63.4",
+    "react-native-elements": "^3.4.1",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-loading-spinner-overlay": "^2.0.0",
+    "react-native-reanimated": "~2.1.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.0.0",
+    "react-native-unimodules": "~0.13.3",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@types/lodash": "^4.14.169",
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "@types/react-native-table-component": "^1.2.0",
+    "babel-preset-expo": "~8.3.0",
+    "jest-expo": "~41.0.0",
+    "typescript": "~4.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "private": true
+}
