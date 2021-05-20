@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { gql, useQuery } from '@apollo/client'
 import _ from "lodash";
-import { USERS_QUERY } from '../querys/userQuery'
+import { USERS_QUERY } from '../queries/userQuery'
 import Spinner from '../components/spinner';
 
 
